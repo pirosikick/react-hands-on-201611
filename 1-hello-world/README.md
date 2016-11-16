@@ -17,6 +17,23 @@ import { render } from 'react-dom';
   - `import { render } from 'react-dom';`
     - 同様、`react-dom`というnpmパッケージを読み込み、その中のrender関数のみを使用する
 - `import hoge from './hoge';`のように書くと、そのファイルから相対パスでJSファイルを読み込み、hoge変数を通して利用することが可能です。
+- `import './hoge';`のように書くと、そのファイルから相対パスでJSファイルを読み込みます。読み込むだけです。
+
+`export`については後々登場予定ですので、登場したら解説します。
+
+#### おまけ：npm
+
+https://www.npmjs.com/
+
+Node.js Package Managerの略です。
+
+元々はNode.jsのパッケージを管理するものでしたが、今ではブラウザで動作するJavaScriptライブラリもnpmで管理されている場合がほとんどです。
+`npm`コマンドを通して、パッケージのインストール、アップデート、公開などを実行することが可能です。また、パッケージの公開が非常に楽なので、大量のライブラリがnpmのレジストリ上に存在します。（具体数は忘れましたw）
+
+- https://www.npmjs.com/package/react
+  - React.jsのコア
+- https://www.npmjs.com/package/react-dom
+  - ReactのDOMに関する処理
 
 ### ReactDOM.render
 
