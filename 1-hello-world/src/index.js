@@ -14,7 +14,7 @@ render(
    * 第2引数: props（後で解説します）第1引数がHTMLタグの場合はの属性値
    * 第3引数: 子要素
    */
-  React.createElement('h1', {}, "Hello, World!!"),
+  React.createElement('h1', { className: 'title' }, "Hello, World!!"),
 
   /**
    * レンダーターゲット
