@@ -11,8 +11,7 @@ function TaskList(props) {
   return <ul>{lists}</ul>;
 }
 TaskList.propTypes = {
-  // array => arrayOf(Task)に変更
-  tasks: PropTypes.arrayOf(Task).isRequired,
+  tasks: PropTypes.arrayOf(PropTypes.node).isRequired,
 };
 
 export default TaskList;
