@@ -7,7 +7,10 @@
   },
   "dependencies": {
     "react": "^15.3.2",
-    "react-dom": "^15.3.2"
+    "react-addons-css-transition-group": "^15.4.1",
+    "react-addons-transition-group": "^15.4.1",
+    "react-dom": "^15.3.2",
+    "reactstrap": "^3.9.1"
   },
   "scripts": {
     "start": "react-scripts start",
