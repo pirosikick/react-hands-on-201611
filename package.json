@@ -6,10 +6,12 @@
     "react-scripts": "0.7.0"
   },
   "dependencies": {
+    "material-ui": "^0.16.4",
     "react": "^15.3.2",
     "react-addons-css-transition-group": "^15.4.1",
     "react-addons-transition-group": "^15.4.1",
     "react-dom": "^15.3.2",
+    "react-tap-event-plugin": "^2.0.1",
     "reactstrap": "^3.9.1"
   },
   "scripts": {
