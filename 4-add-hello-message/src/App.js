@@ -41,6 +41,9 @@ class App extends Component {
     return (
       <div>
         <form onSubmit={this.handleSubmit}>
+          <div>
+            <HelloMessage name={this.state.input} />
+          </div>
           <input
             type="text"
             value={this.state.input}
